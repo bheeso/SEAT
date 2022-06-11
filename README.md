@@ -26,7 +26,7 @@ SEAT.target(Insured.sex, Region, Insured.age, Car.use).fit(N,SD,random_state)
 
 - Step 2:  Create a random sample from the standard uniform distribution and categorize it based on each conditional distribution in the order of 'Insured.sex', 'Region', 'Insured.age', and 'Car.use'. 
 
-- Step 3: By repeating Step 2 $N$ times, gain $N$ configurations of the four covariates $$\{\mathcal{C}_i\}_{i=1,\ldots, N}$$ where $N$ is the number of total observations in the synthetic portfolio to be generated.
+- Step 3: By repeating Step 2 $N$ times, gain $N$ configurations of the four covariates $\{\mathcal{C}_i\}_{i=1,\ldots, N}$ where $N$ is the number of total observations in the synthetic portfolio to be generated.
 - Step 4: From the original portfolio, sample $N$ observations of the remaining variables (telematics and claims information) from their empirical distributions given each configuration  with white Gaussian noises. 
 
 ## Contributing
