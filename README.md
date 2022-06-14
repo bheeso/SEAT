@@ -11,12 +11,12 @@ import SEAT
 SEAT.target(Insured.sex, Region, Insured.age, Car.use).fit(N,SD,random_state)
 ```
 ---
-- Insured.sex = [P<sup>*</sup>(M), P<sup>*</sup>(F)] 
-- <font size="2">Region = [P<sup>*</sup>(R), P<sup>*</sup>(U)] </font>
-- <font size="2">Insured.age = [P<sup>*</sup>(A1), P<sup>*</sup>(A2), P<sup>*</sup>(A3), P<sup>*</sup>(A4), P<sup>*</sup>(A5)]</font>
-- <font size="2">Car.use = [P<sup>*</sup>(C1), P<sup>*</sup>(C2), P<sup>*</sup>(C3), P<sup>*</sup>(C4)]</font>
-- <font size="2">N = the number of observations </font>
-- <font size="2">SD = the degree of random perturbation  </font>
+- Insured.sex = [P<sup> * </sup>(M), P<sup>*</sup>(F)] 
+- Region = [P<sup> * </sup>(R), P<sup>*</sup>(U)]
+- Insured.age = [P<sup>*</sup>(A1), P<sup>*</sup>(A2), P<sup>*</sup>(A3), P<sup>*</sup>(A4), P<sup>*</sup>(A5)]
+- Car.use = [P<sup>*</sup>(C1), P<sup>*</sup>(C2), P<sup>*</sup>(C3), P<sup>*</sup>(C4)]
+- N = the number of observations
+- SD = the degree of random perturbation  
   
   <font size="1.5">*See Table 3 in  'paper' for reference* </font>
 
