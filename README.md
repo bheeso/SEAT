@@ -11,7 +11,7 @@ import SEAT
 SEAT.target(Insured.sex, Region, Insured.age, Car.use).fit(N,SD,random_state)
 ```
 ---
-- <font size="2">Insured.sex = [$P^*(M)$, $P^*(F)$]</font>
+- <font size="2">Insured.sex = [$P<sup>*(M)$, $P^*(F)$]</font>
 - h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 - <font size="2">Region = [$P^*(R)$, $P^*(U)$] </font>
 - <font size="2">Insured.age = [$P^*(A1)$, $P^*(A2)$, $P^*(A3)$, $P^*(A4)$, $P^*(A5)$]</font>
