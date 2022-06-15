@@ -10,7 +10,7 @@ import SEAT
 # enters the profile into the below function
 # returns 'adaptive telematics data'
 SEAT.target(Insured.sex, Region, Insured.age, Car.use,random_state).fit(N,SD)
-An average running time is 60 min when N is 100,000
+# An average running time is 60 min when N is 100,000
 ```
 ---
 - Insured.sex = [P<sup> *</sup>(M), P<sup> *</sup>(F)] 
