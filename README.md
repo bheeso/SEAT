@@ -20,7 +20,7 @@ SEAT.target(Insured.sex, Region, Insured.age, Car.use,random_state).fit(N,SD)
 - N = the number of observations
 - SD = the degree of random perturbation  
   
-  <font size="1.5">*See Table 3 in  'paper' for reference* </font>
+  <font size="1.5">*See Table 3 in 'SEAT' article for reference* </font>
 
 
 ## Algorithm
