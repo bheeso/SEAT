@@ -17,8 +17,7 @@ class target():
         self.Insured_age=Insured_age
         self.Car_use=Car_use
         self.random_state=random_state
-        #self.N=N
-        #self.Sigma=Sigma
+
         
 
 
@@ -72,8 +71,6 @@ class target():
             cum_conditional_p.append(com)
         return cum_conditional_p
 
-#import SEAT  
-#SEAT.target([0.4,0.6],[0.1,0.9],[0.16,0.21,0.24,0.22,0.17],[0.175,0.5166,0.005,0.3034],100,0.1).conditional_D()
 
     def sample(self,N):
         # i is N, j is layer. 
@@ -156,8 +153,4 @@ class target():
             DFnewdata[i]=newdata[i]
         D_trim.trim(DFnewdata)
         return DFnewdata
-
-#import SEAT
-#a=SEAT.target([0.4,0.6],[0.1,0.9],[0.16,0.21,0.24,0.22,0.17],
-#              [0.175,0.5166,0.005,0.3034]).fit(200,0.1,random_state=100)
 
