@@ -5,11 +5,12 @@ This project provides a simulation engine, which we call SEAT (Simulation Engine
 ## Usage
 
 ```python
-# download entire files (If the size of original.pkl is not 44MB, please download it seperately.)
+# download entire files (If the size of original.pkl is not 44 MB, please download it seperately.)
 import SEAT
 # enters the profile into the below function
 # returns 'adaptive telematics data'
 SEAT.target(Insured.sex, Region, Insured.age, Car.use,random_state).fit(N,SD)
+An average running time is 60 min when N is 100,000
 ```
 ---
 - Insured.sex = [P<sup> *</sup>(M), P<sup> *</sup>(F)] 
