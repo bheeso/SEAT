@@ -9,7 +9,7 @@ This project provides a simulation engine, which we call SEAT (Simulation Engine
 import SEAT
 # enters the profile into the below function
 # returns 'adaptive telematics data'
-SEAT.target(Insured.sex, Region, Insured.age, Car.use).fit(N,SD,random_state)
+SEAT.target(Insured.sex, Region, Insured.age, Car.use,random_state).fit(N,SD)
 ```
 ---
 - Insured.sex = [P<sup> *</sup>(M), P<sup> *</sup>(F)] 
