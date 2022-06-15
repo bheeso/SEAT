@@ -36,8 +36,7 @@ SEAT.target(Insured.sex, Region, Insured.age, Car.use,random_state).fit(N,SD)
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Reference
-[So, B., Boucher, J.-P., and Valdez, E. A. (2021). Synthetic dataset generation of driver telematics.
-Risks, 9(4):58](https://www.mdpi.com/2227-9091/9/4/58)
+<a href="pdfs/SEAT.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
 
 
 
