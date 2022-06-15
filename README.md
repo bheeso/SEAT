@@ -5,7 +5,7 @@ This project provides a simulation engine, which we call SEAT (Simulation Engine
 ## Usage
 
 ```python
-# download entire files
+# download entire files (If the size of original.pkl is not 44MB, please download it seperately.)
 import SEAT
 # enters the profile into the below function
 # returns 'adaptive telematics data'
