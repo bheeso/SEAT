@@ -36,7 +36,7 @@ SEAT.target(Insured.sex, Region, Insured.age, Car.use,random_state).fit(N,SD)
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Reference
-<a href="pdfs/SEAT.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+[SEAT](https://github.com/bheeso/SEAT/blob/master/files/SEAT.pdf)
 
 
 
