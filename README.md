@@ -5,6 +5,7 @@ This project provides a simulation engine, which we call SEAT (Simulation Engine
 ## Usage
 
 ```python
+# download entire files
 import SEAT
 # enters the profile into the below function
 # returns 'adaptive telematics data'
